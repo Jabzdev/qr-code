@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(images/tech-bg.jpg);
+    background-size: cover;
+    text-align: center;
+    padding: 70px 60px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.mini-background {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(165, 210, 250);
+}
+
+.main {
+    margin-top: 40px;
+    width: 140px;
+    padding: 7px;
+    background: white;
+    border-radius: 7px;
+}
+
+#qr-img {
+    width: 140px;
+    margin-bottom: 10px;
+    border-radius: 7px;
+}
+
+#title {
+    font-weight: bold;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+#para {
+    font-size: 8px;
+    color: rgba(0, 0, 0, 0.671);
+    margin-bottom: 10px;
+}
